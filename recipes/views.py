@@ -6,10 +6,5 @@ def home(request):
         'name': 'Abner Vidal'
     })
 
-def sobre(request):
-    return HttpResponse('Página de Sobre')
-
-def contato(request):
-    return HttpResponse('Página de Contato')
-
 # Create your views here.
+
